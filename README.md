@@ -8,6 +8,8 @@ Uses the Django auth system to provide user accounts; users are only able to use
 
 Some channels can be limited to only "staff" users; the example includes code that checks user credentials on incoming WebSockets to allow or deny them access to chatroom streams based on their staff status.
 
+setup instruction on debian 9  
+
 Installation
 
 Manual installation
