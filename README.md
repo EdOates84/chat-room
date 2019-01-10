@@ -1,4 +1,4 @@
-chat-room
+# chat-room
 
 Basic example of a multi-room chatroom, with messages from all rooms a user is in multiplexed over a single WebSocket connection.
 
@@ -10,7 +10,7 @@ Some channels can be limited to only "staff" users; the example includes code th
 
 setup instruction on debian 9  
 
-Installation
+ Installation
 
 Manual installation
 
