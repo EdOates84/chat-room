@@ -12,6 +12,7 @@ setup instruction on debian 9
 
   then finally run   
 source/p3/bin/activate
+
 python manage.py runserver  
 
 Visit the local development server at 127.0.0.1:8000/accounts/login to test the site.
