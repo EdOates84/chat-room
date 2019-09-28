@@ -10,35 +10,10 @@ Some channels can be limited to only "staff" users; the example includes code th
 
 setup instruction on debian 9  
 
- Installation
+then finally run   
 
-Manual installation
-
-Make a new virtualenv(p3) for the project, and run:
-
-virtualenv -p python3 p3  
 source/p3/bin/activate
 
-pip install django  
-pip install django-channels  
-pip install django mysqlclient
-
-then start the project(mchat), and run:  
-django-admin startproject mchat  
-mysql -u mchat -p  
-and create database of the app  
-
-then creating the app(nchat), and run:  
-python manage.py startapp nchat  
-
-then fill the code in all files like settings.py,urls.py,routing.py etc
-
-then run :
-
-python manage.py makemigrations  
-python manage.py migrate  
-
-then finally run   
 python manage.py runserver  
 
 Visit the local development server at 127.0.0.1:8000/accounts/login to test the site.
